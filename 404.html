@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pagină negăsită · 404 — Av. Maria Popescu</title>
+  <meta name="robots" content="noindex, follow" />
+  <meta name="theme-color" content="#1f3a31" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f3a31'/%3E%3Ctext x='50%25' y='50%25' dy='.35em' text-anchor='middle' font-family='Georgia,serif' font-size='18' font-style='italic' fill='%23b08749'%3EM%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+
+  <style>
+    .error-page {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-block: var(--space-xl);
+    }
+    .error-num {
+      font-family: var(--font-display);
+      font-size: clamp(8rem, 22vw, 16rem);
+      font-style: italic;
+      font-weight: 400;
+      line-height: 0.85;
+      color: var(--color-primary);
+      margin-bottom: var(--space-md);
+      letter-spacing: -0.04em;
+    }
+    .error-num em {
+      color: var(--color-accent);
+      font-style: italic;
+    }
+    .error-page h1 {
+      font-size: var(--step-fluid-5);
+      margin-bottom: var(--space-sm);
+    }
+    .error-page p {
+      max-width: 42ch;
+      margin-inline: auto;
+      color: var(--color-ink-muted);
+      margin-bottom: var(--space-lg);
+    }
+    .error-actions {
+      display: flex;
+      gap: 0.85rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navigare principală">
+        <a href="/" class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Maria Popescu <small>Avocat</small></span>
+        </a>
+        <ul class="nav-links" data-open="false">
+          <li><a href="/">Acasă</a></li>
+          <li><a href="/despre.html">Despre</a></li>
+          <li><a href="/servicii.html">Servicii</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <div class="lang-switch">
+            <a href="/" class="active">RO</a>
+            <a href="/en/">EN</a>
+          </div>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Meniu"><span></span></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="error-page">
+      <div class="container">
+        <div class="error-num">4<em>0</em>4</div>
+        <h1>Pagina nu există · Page not found</h1>
+        <p>
+          Pagina căutată nu a fost găsită — este posibil să fi fost mutată sau să fi greșit adresa.
+          <br><br>
+          <span style="opacity:0.8">The page you're looking for could not be found — it may have been moved or the link is incorrect.</span>
+        </p>
+        <div class="error-actions">
+          <a href="/" class="btn btn-primary btn-arrow">
+            Înapoi la prima pagină
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="/en/" class="btn btn-ghost">English home →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-meta" style="padding-top:0; border:none">
+        <span>© <span data-year>2026</span> Cabinet de avocat Maria Popescu</span>
+        <span>Baroul București</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js" defer></script>
+</body>
+</html>

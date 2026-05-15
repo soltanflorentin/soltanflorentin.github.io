@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Block crawling of asset directories nothing — they're already linked from HTML
+# (no Disallow lines needed for a small marketing site)
+
+Sitemap: https://avocat-popescu.ro/sitemap.xml
