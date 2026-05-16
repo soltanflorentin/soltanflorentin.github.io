@@ -52,7 +52,7 @@ The site is fully populated with realistic placeholders so it looks complete out
 | `Sector 1` | Actual district / sector | If applicable |
 | `Str. Exemplu nr. 1` | Actual street address | |
 | `010001` | Actual postal code | |
-| `+40 712 345 678` | Actual phone (display format) | With spaces |
+| `+40 777 777 777` | Actual phone (display format) | With spaces |
 | `+40712345678` | Same phone (clean format) | In `tel:` links + schema |
 | `contact@avocat-popescu.ro` | Actual email | |
 | `avocat-popescu.ro` | Actual domain | In URLs, sitemap, CNAME |
